@@ -1,4 +1,4 @@
-Item,sentence,with_question,question,answer1,answer2,correct_answer,question_delay
+Item,Sentence,with_question,question,answer1,answer2,correct_answer,question_delay
 F1,"the bird sang beautifully",true,"Did the bird sing?","Yes","No",0,0
 F2,"children played exciting games",true,"Did the children play games?","Yes","No",0,0
 F3,"flowers bloom during spring",true,"Do flowers bloom in spring?","Yes","No",0,0
