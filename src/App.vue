@@ -202,14 +202,10 @@
           </div>
 
           <div v-if="!showFirstDiv" class="userInput">
-            <p>
-              Please indicate whether the sentence was OK or whether you think
-              it contained an error. You can also indicate that you're not sure.
-              Remember, please disregard capitalization.
-            </p>
+            <p>{{ trial.question }}</p>
             <MultipleChoiceInput
               :response.sync="$magpie.measurements.response"
-              :options="['I noticed an error', 'Not sure', 'Sentence was OK']"
+              :options="[trial.answer1, trial.answer2]"
             />
           </div>
 
@@ -226,8 +222,12 @@
                 Condition: trial.condition_id,
                 Experiment: trial.experiment_id,
                 TrialText: trial.text,
-                TrialType: `textInputInference`,
+                TrialType: `comprehensionQuestion`,
+                Question: trial.question,
+                Answer1: trial.answer1,
+                Answer2: trial.answer2,
                 userResponse: $magpie.measurements.response,
+                ...trial
               });
 
               const data = $magpie.getAllData();
