@@ -400,20 +400,50 @@ export default {
         ...trial,
         item_id: trial["Item"],
         text: trial["sentence"],
-        label: trial["Label"],
-        condition: trial["CriticalCond"],
-        plausibility: trial["Plausibility"],
-        condition_id: `${trial["CriticalCond"]}_${trial["InterveningCond"]}_${trial["Plausibility"]}`,
-        experiment_id: "ncgp2",
+        experiment_id: "ncprediction",
+        
+        // List-specific metadata
+        verb_condition: trial["verb_condition"],
+        verb: trial["verb"],
+        subject_condition: trial["subject_condition"],
+        subject: trial["subject"],
+        context_condition: trial["context_condition"],
+        context: trial["context"],
+        predicate_condition: trial["predicate_condition"],
+        predicate: trial["predicate"],
+        Preamble: trial["Preamble"],
+        prefix: trial["prefix"],
+        CriticalWord: trial["CriticalWord"],
+        intervention_simple: trial["intervention_simple"],
+        continuation: trial["continuation"],
+        aux: trial["aux"],
+        verb_1_o: trial["verb_1_o"],
+        question: trial["question"],
+        group_id: trial["group_id"],
+        answer1: trial["answer1"],
+        answer2: trial["answer2"],
+        question_delay: trial["question_delay"],
+        correct_answer: trial["correct_answer"],
+        with_question: trial["with_question"],
+        material_id: trial["material_id"],
       };
     });
 
     const updatedFillers = fillers.map((trial, idx) => {
       return {
+        // Essential trial data
         item_id: trial["Item"],
         text: trial["Sentence"],
         condition_id: "filler",
-        experiment_id: "ncgp2",
+        experiment_id: "ncprediction",
+        
+        // Filler-specific metadata
+        with_question: trial["with_question"],
+        question: trial["question"],
+        answer1: trial["answer1"],
+        answer2: trial["answer2"],
+        correct_answer: trial["correct_answer"],
+        question_delay: trial["question_delay"],
       };
     });
 
