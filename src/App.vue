@@ -312,7 +312,7 @@
 </template>
 
 <script>
-import fillers from "../trials/motr_fillers.csv";
+import fillers from "../trials/filler.csv";
 import _ from "lodash";
 
 // Get query parameters from URL
@@ -324,22 +324,65 @@ console.log(listId);
 // Load data from csv files as javascript arrays with objects
 // ensure that listId is zfilled to take up 2 places, e.g. 01, 02, ... 10
 const listIdPadded = listId.padStart(2, "0");
-// Import all list files
-import list01 from "../trials/list_01.csv";
-import list02 from "../trials/list_02.csv";
-import list03 from "../trials/list_03.csv";
-import list04 from "../trials/list_04.csv";
-import list05 from "../trials/list_05.csv";
-import list06 from "../trials/list_06.csv";
-import list07 from "../trials/list_07.csv";
-import list08 from "../trials/list_08.csv";
-import list09 from "../trials/list_09.csv";
+// Import all 45 list files
+// Import all 45 list files for the questionnaires
+import list01 from "../trials/list_1.csv";
+import list02 from "../trials/list_2.csv";
+import list03 from "../trials/list_3.csv";
+import list04 from "../trials/list_4.csv";
+import list05 from "../trials/list_5.csv";
+import list06 from "../trials/list_6.csv";
+import list07 from "../trials/list_7.csv";
+import list08 from "../trials/list_8.csv";
+import list09 from "../trials/list_9.csv";
 import list10 from "../trials/list_10.csv";
+import list11 from "../trials/list_11.csv";
+import list12 from "../trials/list_12.csv";
+import list13 from "../trials/list_13.csv";
+import list14 from "../trials/list_14.csv";
+import list15 from "../trials/list_15.csv";
+import list16 from "../trials/list_16.csv";
+import list17 from "../trials/list_17.csv";
+import list18 from "../trials/list_18.csv";
+import list19 from "../trials/list_19.csv";
+import list20 from "../trials/list_20.csv";
+import list21 from "../trials/list_21.csv";
+import list22 from "../trials/list_22.csv";
+import list23 from "../trials/list_23.csv";
+import list24 from "../trials/list_24.csv";
+import list25 from "../trials/list_25.csv";
+import list26 from "../trials/list_26.csv";
+import list27 from "../trials/list_27.csv";
+import list28 from "../trials/list_28.csv";
+import list29 from "../trials/list_29.csv";
+import list30 from "../trials/list_30.csv";
+import list31 from "../trials/list_31.csv";
+import list32 from "../trials/list_32.csv";
+import list33 from "../trials/list_33.csv";
+import list34 from "../trials/list_34.csv";
+import list35 from "../trials/list_35.csv";
+import list36 from "../trials/list_36.csv";
+import list37 from "../trials/list_37.csv";
+import list38 from "../trials/list_38.csv";
+import list39 from "../trials/list_39.csv";
+import list40 from "../trials/list_40.csv";
+import list41 from "../trials/list_41.csv";
+import list42 from "../trials/list_42.csv";
+import list43 from "../trials/list_43.csv";
+import list44 from "../trials/list_44.csv";
+import list45 from "../trials/list_45.csv";
 
 // Create a mapping and select the correct list
 const listMap = {
   '01': list01, '02': list02, '03': list03, '04': list04, '05': list05,
-  '06': list06, '07': list07, '08': list08, '09': list09, '10': list10
+  '06': list06, '07': list07, '08': list08, '09': list09, '10': list10,
+  '11': list11, '12': list12, '13': list13, '14': list14, '15': list15,
+  '16': list16, '17': list17, '18': list18, '19': list19, '20': list20,
+  '21': list21, '22': list22, '23': list23, '24': list24, '25': list25,
+  '26': list26, '27': list27, '28': list28, '29': list29, '30': list30,
+  '31': list31, '32': list32, '33': list33, '34': list34, '35': list35,
+  '36': list36, '37': list37, '38': list38, '39': list39, '40': list40,
+  '41': list41, '42': list42, '43': list43, '44': list44, '45': list45
 };
 
 const list1 = listMap[listIdPadded] || list01;
