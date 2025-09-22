@@ -1,5 +1,5 @@
 export default {
-  experimentId: "108",
+  experimentId: "174",
   serverUrl: "https://noisy-comp-server-311aa565092d.herokuapp.com",
   socketUrl: "wss://noisy-comp-server-311aa565092d.herokuapp.com/socket",
   // this will be used in prolific mode
