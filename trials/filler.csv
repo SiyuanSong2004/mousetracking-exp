@@ -1,16 +1,16 @@
 Item,Sentence,with_question,question,answer1,answer2,correct_answer,question_delay
-1,"the bird sang beautifully",true,"Did the bird sing?","Yes","No",0,0
-2,"children played exciting games",true,"Did the children play games?","Yes","No",0,0
-3,"flowers bloom during spring",true,"Do flowers bloom in spring?","Yes","No",0,0
-4,"the movie entertained many people",true,"Did the movie entertain people?","Yes","No",0,0
-5,"on the table, the book lay open",true,"Was the book on the table?","Yes","No",0,0
-6,"the computer works perfectly",true,"Does the computer work well?","Yes","No",0,0
-7,"in the café, people relax quietly",true,"Do people relax in the café?","Yes","No",0,0
-8,"tourists watched the sunset",true,"Did tourists watch the sunset?","Yes","No",0,0
-9,"music helps tired workers",true,"Does music help workers?","Yes","No",0,0
-10,"the flowers attract busy bees",true,"Do the flowers attract bees?","Yes","No",0,0
-11,"the cashier smiled warmly",true,"Did the cashier smile?","Yes","No",0,0
-12,"during dinner, the family laughed together",true,"Did the family laugh during dinner?","Yes","No",0,0
-13,"the professor explained the theory",true,"Did the professor explain something?","Yes","No",0,0
-14,"the artist painted colorful pictures",true,"Did the artist paint pictures?","Yes","No",0,0
-15,"at the concert, the musician performed brilliantly",true,"Did the musician perform at the concert?","Yes","No",0,0 
+1,"In the morning, the bird sang beautifully.",true,"Did the bird sing at night?","Yes","No",1,0
+2,"After class, the children played exciting board games.",true,"Did the children play soccer in the playground?","Yes","No",1,0
+3,"Flowers bloom during spring.",true,"Do flowers bloom in spring?","Yes","No",0,0
+4,"The movie entertained many people.",true,"Did the movie entertain all people?","Yes","No",1,0
+5,"On the table, the book about the history of the city lay open.",true,"Was the book on the table?","Yes","No",0,0
+6,"After being fixed this morning, the computer works perfectly.",true,"Did the computer work well yesterday?","Yes","No",1,0
+7,"In the café, people relax quietly.",true,"Is the café quiet?","Yes","No",0,0
+8,"Enjoying the pleasant weather, tourists watched the sunset.",true,"Did tourists watch the sunrise?","Yes","No",1,0
+9,"Music helps tired workers.",true,"Does music help workers?","Yes","No",0,0
+10,"The flowers attract busy bees.",true,"Are those flowers attractive?","Yes","No",0,0
+11,"He smiled warmly.",true,"Did he smile?","Yes","No",0,0
+12,"During dinner, the family laughed together happily.",true,"Was the family sad during dinner?","Yes","No",1,0
+13,"The professor explained the theory.",true,"Did the professor explain something?","Yes","No",0,0
+14,"The artist painted colorful pictures.",true,"Did the artist paint pictures only with black ink?","Yes","No",1,0
+15,"At the concert, the musician performed brilliantly.",true,"Did the musician perform somewhere?","Yes","No",0,0 
