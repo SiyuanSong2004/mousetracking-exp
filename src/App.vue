@@ -398,7 +398,7 @@ export default {
         ...trial,
         item_id: trial["Item"],
         text: trial["sentence"],
-        condition_id: `${trial["subject_condition"]}_${trial["context_condition"]}_${trial["predicate_condition"]}`,
+        condition_id: `${trial["verb_condition"]}_${trial["subject_condition"]}_${trial["context_condition"]}_${trial["predicate_condition"]}`,
         experiment_id: "ncprediction",
         
         // List-specific metadata
