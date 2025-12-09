@@ -371,7 +371,7 @@ export default {
       // var col = shuffledConditions[idx];
       return {
         ...trial,
-        item_id: trial["item_id"] || trial["Item"],
+        item_id: `${trial["Item"]}_${trial["verb_condition"]}_${trial["subject_condition"]}_${trial["context_condition"]}_${trial["predicate_condition"]}`,
         text: trial["sentence"],
         condition_id: `${trial["verb_condition"]}_${trial["subject_context_condition"]}`,
         experiment_id: "ncprediction",

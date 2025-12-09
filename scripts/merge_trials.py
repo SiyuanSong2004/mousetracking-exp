@@ -24,7 +24,13 @@ def build_condition_id(row: dict[str, str]) -> str:
 def row_to_output(row: dict[str, str]) -> tuple[str, str, str]:
     """Convert an experimental row into the simplified schema."""
 
-    item_id = row["item_id"] or row["Item"]
+    item_id = (
+        f"{row['Item']}"
+        f"_{row['verb_condition']}"
+        f"_{row['subject_condition']}"
+        f"_{row['context_condition']}"
+        f"_{row['predicate_condition']}"
+    )
     condition_id = build_condition_id(row)
     text = row['sentence']
     return item_id, condition_id, text
