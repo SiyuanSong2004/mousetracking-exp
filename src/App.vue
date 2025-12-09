@@ -371,9 +371,9 @@ export default {
       // var col = shuffledConditions[idx];
       return {
         ...trial,
-        item_id: trial["Item"],
+        item_id: trial["item_id"] || trial["Item"],
         text: trial["sentence"],
-        condition_id: `${trial["verb_condition"]}_${trial["subject_condition"]}_${trial["context_condition"]}_${trial["predicate_condition"]}`,
+        condition_id: `${trial["verb_condition"]}_${trial["subject_context_condition"]}`,
         experiment_id: "ncprediction",
         
         // List-specific metadata
@@ -393,13 +393,12 @@ export default {
         aux: trial["aux"],
         verb_1_o: trial["verb_1_o"],
         question: trial["question"],
-        group_id: trial["group_id"],
+        group_id: trial["list_id"] || listIdPadded,
         answer1: trial["answer1"],
         answer2: trial["answer2"],
         question_delay: trial["question_delay"],
         correct_answer: trial["correct_answer"],
         with_question: trial["with_question"],
-        material_id: trial["material_id"],
       };
     });
 
@@ -410,6 +409,7 @@ export default {
         text: trial["Sentence"],
         condition_id: "filler",
         experiment_id: "ncprediction",
+        group_id: listIdPadded,
         
         // Filler-specific metadata
         with_question: trial["with_question"],
