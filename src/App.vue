@@ -322,8 +322,7 @@ console.log(listId);
 // Load data from csv files as javascript arrays with objects
 // ensure that listId is zfilled to take up 2 places, e.g. 01, 02, ... 10
 const listIdPadded = listId.padStart(2, "0");
-// Import all available list files (01-25)
-// Import all available list files for the questionnaires
+// Import all list files available for the questionnaires
 import list01 from "../trials/list_01.csv";
 import list02 from "../trials/list_02.csv";
 import list03 from "../trials/list_03.csv";
@@ -348,38 +347,17 @@ import list21 from "../trials/list_21.csv";
 import list22 from "../trials/list_22.csv";
 import list23 from "../trials/list_23.csv";
 import list24 from "../trials/list_24.csv";
-import list25 from "../trials/list_25.csv";
 
 // Create a mapping and select the correct list
 const listMap = {
-  "01": list01,
-  "02": list02,
-  "03": list03,
-  "04": list04,
-  "05": list05,
-  "06": list06,
-  "07": list07,
-  "08": list08,
-  "09": list09,
-  "10": list10,
-  "11": list11,
-  "12": list12,
-  "13": list13,
-  "14": list14,
-  "15": list15,
-  "16": list16,
-  "17": list17,
-  "18": list18,
-  "19": list19,
-  "20": list20,
-  "21": list21,
-  "22": list22,
-  "23": list23,
-  "24": list24,
-  "25": list25,
+  '01': list01, '02': list02, '03': list03, '04': list04, '05': list05,
+  '06': list06, '07': list07, '08': list08, '09': list09, '10': list10,
+  '11': list11, '12': list12, '13': list13, '14': list14, '15': list15,
+  '16': list16, '17': list17, '18': list18, '19': list19, '20': list20,
+  '21': list21, '22': list22, '23': list23, '24': list24
 };
 
-const list1 = listMap[listIdPadded] || listMap["01"];
+const list1 = listMap[listIdPadded] || list01;
 
 export default {
   name: "App",
