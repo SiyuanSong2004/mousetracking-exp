@@ -304,7 +304,7 @@
 
     <Screen :title="'Study Complete'">
       <p class="selectable-text" style="font-size: 24px">Completion Code:</p>
-      <p class="selectable-text" style="font-size: 24px">C101RMLG</p>
+      <p class="selectable-text" style="font-size: 24px">CUZM7VPX</p>
     </Screen>
   </Experiment>
 </template>
