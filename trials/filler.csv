@@ -1,36 +1,36 @@
 Item,Sentence,with_question,question,answer1,answer2,correct_answer,question_delay
-1,"In the morning, the bird sang beautifully.",true,"Did the bird sing at night?","Yes","No",1,0
-2,"After class, the children played exciting board games.",true,"Did the children play soccer in the playground?","Yes","No",1,0
-3,"Flowers bloom during spring.",true,"Do flowers bloom in spring?","Yes","No",0,0
-4,"The movie entertained many people.",true,"Did the movie entertain all people?","Yes","No",1,0
-5,"On the table, the book about the history of the city lay open.",true,"Was the book on the table?","Yes","No",0,0
-6,"After being fixed this morning, the computer works perfectly.",true,"Did the computer work well yesterday?","Yes","No",1,0
-7,"In the café, people relax quietly.",true,"Is the café quiet?","Yes","No",0,0
-8,"Enjoying the pleasant weather, tourists watched the sunset.",true,"Did tourists watch the sunrise?","Yes","No",1,0
-9,"Music helps tired workers.",true,"Does music help workers?","Yes","No",0,0
-10,"The flowers attract busy bees.",true,"Are those flowers attractive?","Yes","No",0,0
-11,"He smiled warmly.",true,"Did he smile?","Yes","No",0,0
-12,"During dinner, the family laughed together happily.",true,"Was the family sad during dinner?","Yes","No",1,0
-13,"The professor explained the theory.",true,"Did the professor explain something?","Yes","No",0,0
-14,"The artist painted colorful pictures.",true,"Did the artist paint pictures only with black ink?","Yes","No",1,0
-15,"At the concert, the musician performed brilliantly.",true,"Did the musician perform somewhere?","Yes","No",0,0
-16,"The library contains thousands of books.",true,"Does the library have books?","Yes","No",0,0
-17,"In the park, dogs run freely every afternoon.",true,"Do dogs run in the park at night?","Yes","No",1,0
-18,"The chef prepared delicious meals for the guests.",true,"Did the chef prepare meals?","Yes","No",0,0
-19,"Before the storm, the sky turned dark gray.",true,"Was the sky bright before the storm?","Yes","No",1,0
-20,"Students study hard for their exams.",true,"Do students study for exams?","Yes","No",0,0
-21,"The old bridge connects two small villages.",true,"Does the bridge connect cities?","Yes","No",1,0
-22,"Reading books expands your knowledge.",true,"Does reading expand knowledge?","Yes","No",0,0
-23,"During the festival, the streets filled with colorful decorations.",true,"Were the streets empty during the festival?","Yes","No",1,0
-24,"The teacher explained the difficult concept clearly.",true,"Did the teacher explain something?","Yes","No",0,0
-25,"In winter, snow covers the mountains.",true,"Does snow cover mountains in summer?","Yes","No",1,0
-26,"The doctor helped many patients today.",true,"Did the doctor help patients?","Yes","No",0,0
-27,"After the rain, a beautiful rainbow appeared in the sky.",true,"Did a rainbow appear before the rain?","Yes","No",1,0
-28,"The garden grows fresh vegetables every season.",true,"Does the garden grow vegetables?","Yes","No",0,0
-29,"At the beach, children build sandcastles happily.",true,"Do children build houses at the beach?","Yes","No",1,0
-30,"The writer published several novels last year.",true,"Did the writer publish novels?","Yes","No",0,0
-31,"Before sunrise, the world remains quiet and peaceful.",true,"Is the world noisy before sunrise?","Yes","No",1,0
-32,"The mechanic fixed the broken car engine.",true,"Did the mechanic fix something?","Yes","No",0,0
-33,"In autumn, leaves change to vibrant colors.",true,"Do leaves change color in spring?","Yes","No",1,0
-34,"The scientist discovered an important new element.",true,"Did the scientist discover something?","Yes","No",0,0
-35,"During the meeting, everyone discussed the project seriously.",true,"Was the meeting casual and relaxed?","Yes","No",1,0
+1,"in the morning, the bird sang beautifully",true,Did the bird sing at night?,Yes,No,1,0
+2,"after class, the children played exciting board games",true,Did the children play soccer in the playground?,Yes,No,1,0
+3,flowers bloom during spring,true,Do flowers bloom in spring?,Yes,No,0,0
+4,the movie entertained many people,true,Did the movie entertain all people?,Yes,No,1,0
+5,"on the table, the book about the history of the city lay open",true,Was the book on the table?,Yes,No,0,0
+6,"after being fixed this morning, the computer works perfectly",true,Did the computer work well yesterday?,Yes,No,1,0
+7,"in the café, people relax quietly",true,Is the café quiet?,Yes,No,0,0
+8,"enjoying the pleasant weather, tourists watched the sunset",true,Did tourists watch the sunrise?,Yes,No,1,0
+9,music helps tired workers,true,Does music help workers?,Yes,No,0,0
+10,the flowers attract busy bees,true,Are those flowers attractive?,Yes,No,0,0
+11,he smiled warmly,true,Did he smile?,Yes,No,0,0
+12,"during dinner, the family laughed together happily",true,Was the family sad during dinner?,Yes,No,1,0
+13,the professor explained the theory,true,Did the professor explain something?,Yes,No,0,0
+14,the artist painted colorful pictures,true,Did the artist paint pictures only with black ink?,Yes,No,1,0
+15,"at the concert, the musician performed brilliantly",true,Did the musician perform somewhere?,Yes,No,0,0
+16,the library contains thousands of books,true,Does the library have books?,Yes,No,0,0
+17,"in the park, dogs run freely every afternoon",true,Do dogs run in the park at night?,Yes,No,1,0
+18,the chef prepared delicious meals for the guests,true,Did the chef prepare meals?,Yes,No,0,0
+19,"before the storm, the sky turned dark gray",true,Was the sky bright before the storm?,Yes,No,1,0
+20,students study hard for their exams,true,Do students study for exams?,Yes,No,0,0
+21,the old bridge connects two small villages,true,Does the bridge connect cities?,Yes,No,1,0
+22,reading books expands your knowledge,true,Does reading expand knowledge?,Yes,No,0,0
+23,"during the festival, the streets filled with colorful decorations",true,Were the streets empty during the festival?,Yes,No,1,0
+24,the teacher explained the difficult concept clearly,true,Did the teacher explain something?,Yes,No,0,0
+25,"in winter, snow covers the mountains",true,Does snow cover mountains in summer?,Yes,No,1,0
+26,the doctor helped many patients today,true,Did the doctor help patients?,Yes,No,0,0
+27,"after the rain, a beautiful rainbow appeared in the sky",true,Did a rainbow appear before the rain?,Yes,No,1,0
+28,the garden grows fresh vegetables every season,true,Does the garden grow vegetables?,Yes,No,0,0
+29,"at the beach, children build sandcastles happily",true,Do children build houses at the beach?,Yes,No,1,0
+30,the writer published several novels last year,true,Did the writer publish novels?,Yes,No,0,0
+31,"before sunrise, the world remains quiet and peaceful",true,Is the world noisy before sunrise?,Yes,No,1,0
+32,the mechanic fixed the broken car engine,true,Did the mechanic fix something?,Yes,No,0,0
+33,"in autumn, leaves change to vibrant colors",true,Do leaves change color in spring?,Yes,No,1,0
+34,the scientist discovered an important new element,true,Did the scientist discover something?,Yes,No,0,0
+35,"during the meeting, everyone discussed the project seriously",true,Was the meeting casual and relaxed?,Yes,No,1,0
